@@ -11,7 +11,7 @@ def not_found(e):
 
 @app.route('/')
 def index():
-    return '<h1>PP-Labeling-Backend API Works!</h1>'
+    return '<h1>API Works!</h1>'
 
 
 @app.route('/api/time')
